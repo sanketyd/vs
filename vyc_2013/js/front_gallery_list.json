@@ -1,0 +1,65 @@
+{
+	"base_url": "images/gallery",
+	"pictures": [
+		{
+			"url": "logo.jpg",
+		      "info": "<div style='text-align: center;'><b>Welcome</b><br/> to</div> <div style='font-size:20pt;font-weight: bold; '>Vivekananda Youth Leadership Convention</div><div style='font-weight: bold; font-size: 14pt; text-align: center;'>10 - 16<sup>th</sup> January - 2013<br/>IIT Kanpur</div>",
+		      "info_bg_color": "#a51c30"
+		},
+		{ 
+			 "url": "editedimage1.JPG",
+		       "info": "<b>Health camp</b> for <b>underprivileged</b> children.",
+		       "info_bg_color": "#a51c30",
+		       "link": "http://www.iitk.ac.in/vs/?page=activities/2012/health_camps#event_4"
+		},
+		{
+			 "url": "CHCVSF.png",
+		       "info": "<b>Children Health Camp - 2012</b><br/>Service to humanity is service to God.",
+		       "info_bg_color": "#1c54a5",
+		       "link": ""
+		},
+		{ 
+			   "url": "editedimage2.JPG",
+		       "info": "<b>Eye camp</b> organized in villages around IIT Kanpur, <b> more than 1000 </b> people have been treated so far.",
+		       "info_bg_color": "#647f01",
+		       "link": ""
+		},
+		
+		{ 
+			   "url": "editedimage4.JPG",
+		       "info": "<b>Health camp </b> organized in villages around IIT Kanpur, <b>more than 2000</b> people have been treated so far.",
+		       "info_bg_color": "#a51c30",
+		       "link": ""
+		},
+		{ 
+			   "url": "editedimage5.JPG",
+		       "info": "<b>Personality Development Workshop</b>.",
+		       "info_bg_color": "#647f01",
+		       "link": ""
+		},
+				{ 
+			   "url": "editedimage7.JPG",
+		       "info": "Glimps of <br/><b>Vivekananda Youth Convention</b> - 2012",
+		       "info_bg_color": "#647f01",
+		       "link": ""
+		},
+		{ 
+			   "url": "editedimage8.JPG",
+		       "info": "Vivekananda Youth Convention - 2012 <br/> GD, Extampore, etc.",
+		       "info_bg_color": "#647f01",
+		       "link": ""
+		},
+		{ 
+			   "url": "editedimage3.JPG",
+		       "info": "Glimps of <br/><b>Vivekananda Youth Convention</b> - 2011",
+		       "info_bg_color": "#1c54a5",
+		       "link": ""
+		},
+		{ 
+			   "url": "editedimage6.JPG",
+		       "info": "<q>My countrymen should have nerves of <b>steel</b>, muscles of <b>iron</b>, and minds like <b>thunderbolt</b>.</q> <br><br/><i> &#160; &#160; &#160; &#160; &#160; &#160; &#160;&#160;&#160; Swami Vivekananda </i>",
+		       "info_bg_color": "#C64600",
+		       "link": ""
+		}
+ ]
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30159978-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<meta name="ROBOTS" content="NOINDEX, FOLLOW" />
+<title>Register / Metro UI template</title>
+<link rel="stylesheet" type="text/css" href="style/metro.css" />
+<script type="text/javascript">
+/* <![CDATA[ */
+function process_form(the_form)
+{
+	var required_fields = {
+		"req_phone": "Username",
+		"req_password1": "Password",
+		"req_password2": "Confirm password",
+		"req_email1": "Email",
+		"req_email2": "Email 2"
+	};
+	if (document.all || document.getElementById)
+	{
+		for (var i = 0; i < the_form.length; ++i)
+		{
+			var elem = the_form.elements[i];
+			if (elem.name && required_fields[elem.name] && !elem.value && elem.type && (/^(?:text(?:area)?|password|file)$/i.test(elem.type)))
+			{
+				alert('"' + required_fields[elem.name] + '" is a required field in this form.');
+				elem.focus();
+				return false;
+			}
+		}
+	}
+	return true;
+}
+/* ]]> */
+</script>
+<!--[if lte IE 6]><script type="text/javascript" src="style/imports/minmax.js"></script><![endif]-->
+</head>
+<body onload="document.getElementById('register').elements['req_phone'].focus()">
+<img id="bgImage" src="../img/bg/metro_green.jpg" />
+<div id="header" class="block">
+	<div id="headerCenterer" class="box">
+		<div id="brdtitle" class="inbox">
+			<h1><a href="index.php.htm">Metro UI template</a></h1>
+			<div id="brddesc">Create Windows 8-style websites with ease</div>
+		</div>
+        <div class="metronav">
+            	<a href="../index.html" class="navActive">
+	<img src="../img/icons/home.png" style="">
+	Home
+</a>
+<a href="../index.html#&download">
+	<img src="../img/icons/download_s.png" style="">
+	Download
+ </a>
+<a href="../index.html#&support">
+	<img src="../img/icons/questionmark.png" style="">
+	Support
+</a>	</div>
+	</div>
+</div>
+
+
+<div id="punregister" class="pun">
+<div class="top-box"><div><!-- Top Corners --></div></div>
+<div class="punwrap">
+
+<div id="brdheader" class="block">
+	<div class="box">
+		<div id="brdmenu" class="inbox">
+			<ul>
+				<li id="navindex"><a href="index.php.htm">Index</a></li>
+				<li id="navsearch"><a href="search.php.htm">Search</a></li>
+				<li id="navregister" class="isactive"><a href="register.php.htm">Register</a></li>
+				<li id="navlogin"><a href="login.php.htm">Login</a></li>
+			</ul>
+		</div>
+		<div id="brdwelcome" class="inbox">
+			<p class="conl">You are not logged in.</p>
+			<ul class="conr">
+				<li><span>Topics: <a href="http://metro-webdesign.info/forum/search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="http://metro-webdesign.info/forum/search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+			</ul>
+			<div class="clearer"></div>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="brdmain">
+<div id="regform" class="blockform">
+	<h2><span>Register</span></h2>
+	<div class="box">
+		<form id="register" method="post" action="http://metro-webdesign.info/forum/register.php?action=register" onsubmit="this.register.disabled=true;if(process_form(this)){return true;}else{this.register.disabled=false;return false;}">
+			<div class="inform">
+				<div class="forminfo">
+					<h3>Important information</h3>
+					<p>Registration will grant you access to a number of features and capabilities otherwise unavailable. These functions include the ability to edit and delete posts, design your own signature that accompanies your posts and much more. If you have any questions regarding this forum you should ask an administrator.</p>
+					<p>Below is a form you must fill out in order to register. Once you are registered you should visit your profile and review the different settings you can change. The fields below only make up a small part of all the settings you can alter in your profile.</p>
+				</div>
+				<fieldset>
+					<legend>Please enter a username between 2 and 25 characters long</legend>
+					<div class="infldset">
+						<input type="hidden" name="form_sent" value="1" />
+						<label class="required usernamefield"><strong>If you want to be reported as a spammer, please fill in this field!</strong><br /><input type="text" name="req_user" value="" size="25" maxlength="25" /><br /></label>
+						<label class="required"><strong>Username <span>(Required)</span></strong><br /><input type="text" name="req_phone" value="" size="25" maxlength="25" /><br /></label>
+					</div>
+				</fieldset>
+			</div>
+			<div class="inform">
+				<fieldset>
+					<legend>Please enter and confirm your chosen password</legend>
+					<div class="infldset">
+						<label class="conl required"><strong>Password <span>(Required)</span></strong><br /><input type="password" name="req_password1" value="" size="16" /><br /></label>
+						<label class="conl required"><strong>Confirm password <span>(Required)</span></strong><br /><input type="password" name="req_password2" value="" size="16" /><br /></label>
+						<p class="clearb">Passwords must be at least 4 characters long. Passwords are case sensitive.</p>
+					</div>
+				</fieldset>
+			</div>
+			<div class="inform">
+				<fieldset>
+					<legend>Enter a valid email address</legend>
+					<div class="infldset">
+						<label class="required"><strong>Email <span>(Required)</span></strong><br />
+						<input type="text" name="req_email1" value="" size="50" maxlength="80" /><br /></label>
+					</div>
+				</fieldset>
+			</div>
+			<div class="inform">
+				<fieldset>
+					<legend>Set your localisation options</legend>
+					<div class="infldset">
+						<p>For the forum to display times correctly you must select your local time zone. If Daylight Savings Time is in effect you should also check the option provided which will advance times by 1 hour.</p>
+						<label>Time zone
+						<br /><select id="time_zone" name="timezone">
+							<option value="-12">(UTC-12:00) International Date Line West</option>
+							<option value="-11">(UTC-11:00) Niue, Samoa</option>
+							<option value="-10">(UTC-10:00) Hawaii-Aleutian, Cook Island</option>
+							<option value="-9.5">(UTC-09:30) Marquesas Islands</option>
+							<option value="-9">(UTC-09:00) Alaska, Gambier Island</option>
+							<option value="-8.5">(UTC-08:30) Pitcairn Islands</option>
+							<option value="-8">(UTC-08:00) Pacific</option>
+							<option value="-7">(UTC-07:00) Mountain</option>
+							<option value="-6">(UTC-06:00) Central</option>
+							<option value="-5">(UTC-05:00) Eastern</option>
+							<option value="-4">(UTC-04:00) Atlantic</option>
+							<option value="-3.5">(UTC-03:30) Newfoundland</option>
+							<option value="-3">(UTC-03:00) Amazon, Central Greenland</option>
+							<option value="-2">(UTC-02:00) Mid-Atlantic</option>
+							<option value="-1">(UTC-01:00) Azores, Cape Verde, Eastern Greenland</option>
+							<option value="0" selected="selected">(UTC) Western European, Greenwich</option>
+							<option value="1">(UTC+01:00) Central European, West African</option>
+							<option value="2">(UTC+02:00) Eastern European, Central African</option>
+							<option value="3">(UTC+03:00) Eastern African</option>
+							<option value="3.5">(UTC+03:30) Iran</option>
+							<option value="4">(UTC+04:00) Moscow, Gulf, Samara</option>
+							<option value="4.5">(UTC+04:30) Afghanistan</option>
+							<option value="5">(UTC+05:00) Pakistan</option>
+							<option value="5.5">(UTC+05:30) India, Sri Lanka</option>
+							<option value="5.75">(UTC+05:45) Nepal</option>
+							<option value="6">(UTC+06:00) Bangladesh, Bhutan, Yekaterinburg</option>
+							<option value="6.5">(UTC+06:30) Cocos Islands, Myanmar</option>
+							<option value="7">(UTC+07:00) Indochina, Novosibirsk</option>
+							<option value="8">(UTC+08:00) Greater China, Australian Western, Krasnoyarsk</option>
+							<option value="8.75">(UTC+08:45) Southeastern Western Australia</option>
+							<option value="9">(UTC+09:00) Japan, Korea, Chita, Irkutsk</option>
+							<option value="9.5">(UTC+09:30) Australian Central</option>
+							<option value="10">(UTC+10:00) Australian Eastern</option>
+							<option value="10.5">(UTC+10:30) Lord Howe</option>
+							<option value="11">(UTC+11:00) Solomon Island, Vladivostok</option>
+							<option value="11.5">(UTC+11:30) Norfolk Island</option>
+							<option value="12">(UTC+12:00) New Zealand, Fiji, Magadan</option>
+							<option value="12.75">(UTC+12:45) Chatham Islands</option>
+							<option value="13">(UTC+13:00) Tonga, Phoenix Islands, Kamchatka</option>
+							<option value="14">(UTC+14:00) Line Islands</option>
+						</select>
+						<br /></label>
+						<div class="rbox">
+							<label><input type="checkbox" name="dst" value="1" checked="checked" />Daylight Savings Time is in effect (advance time by 1 hour).<br /></label>
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			<div class="inform">
+				<fieldset>
+					<legend>Set your privacy options</legend>
+					<div class="infldset">
+						<p>Select whether you want your email address to be viewable to other users or not and if you want other users to be able to send you email via the forum (form email) or not.</p>
+						<div class="rbox">
+							<label><input type="radio" name="email_setting" value="0" />Display your email address.<br /></label>
+							<label><input type="radio" name="email_setting" value="1" checked="checked" />Hide your email address but allow form email.<br /></label>
+							<label><input type="radio" name="email_setting" value="2" />Hide your email address and disallow form email.<br /></label>
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			<!-- [modif] - Mod captcha_registration -->
+<div class="inform">
+	<fieldset>
+		<legend>Confirmation code</legend>
+		<div class="infldset">
+			<p>To prevent automated registrations the board requires you to enter a confirmation code. If you can't read the image click <a href="register.php.htm#" onclick="document.getElementById('captcha_securimage_image').src = 'plugins/captcha_registration/securimage/securimage_show.php?' + Math.random(); return false">here</a> to refresh.</p>
+			<label class="required">
+						<p><img id="captcha_securimage_image" src="plugins/captcha_registration/securimage/securimage_show.php.png" alt="CAPTCHA Image" /></p>
+						<p>
+							<strong>Confirmation code&nbsp;<span>(Required)</span></strong><br/>
+							<input type="text" name="captcha_securimage_code" maxlength="6" />
+						</p>
+			</label>
+		</div>
+	</fieldset>
+</div>
+<!-- [modif] - End Mod captcha_registration -->
+<p class="buttons"><input type="submit" name="register" value="Register" /></p>
+		</form>
+	</div>
+</div>
+</div>
+
+<div id="brdfooter" class="block">
+  <h2><span>Board footer</span></h2>
+  <div class="box">
+    <div id="brdfooternav" class="inbox">
+			<div class="conl">
+			</div>
+      <div class="conr">
+        <p id="poweredby"></p>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </div>
+</div>
+
+</div>
+<div class="end-box"><div><!-- Bottom corners --></div></div>
+</div>
+
+</body>
+</html>
+<br><center>This file was downloaded with an evaluation copy of <a href="http://www.sparkleware.com/superbot/watermark/">SuperBot</a>. This message is not added by licensed copies of <a href="http://www.sparkleware.com/superbot/watermark/">SuperBot</a>.</center>

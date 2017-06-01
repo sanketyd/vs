@@ -1,0 +1,88 @@
+<h1>Example sidepanel</h1>
+        <div class='sidebar sidebar-left' style='width:315px'>
+          	<a  href="http://metro-webdesign.info/demo/modernlight/panels/example.php?p=typography" class="tile group0 " style="
+    margin-top:0px; margin-left:0px;
+	width:145px; height:145px;
+	background:#11528f;"  > 
+    <div style='line-height:30px; margin-top:5px;'>
+<div style='color:#FFF;font-size:43px;line-heigt:70px;'><strong>CHECK</strong></div>
+<span style='color:#FFF;font-size:32px;'><strong>OUT</strong></span><span style='color:#BBB;font-size:32px;'>THE</span>
+<div style='font-size:57px;line-height:30px;'>TYPO</div>
+<div style='font-size:37px;line-height:40px;'>GRAPHY</div>
+</div>        </a>
+      	<a  class="tile tileImg group0  noClick" style="
+    margin-top:0px; margin-left:155px;
+	width:145px; height:145px;
+	background:#0F6D32;"   > 
+    <img title='' alt='' src="http://metro-webdesign.info/demo/modernlight/panels/img/img3.jpg" width="145" style='margin-left:-72.5px; margin-top: -72.5px; max-height:145px;'/>
+    <div class='tileLabelWrapper bottom'><div class='tileLabel bottom' style='border-bottom-color:#509601;'>Img Tile</div><div class='imgDesc' >By adding the CSS class 'noClock' to this tile, we've achieved that there is no hover effect!</div>    </div>
+    </a>
+            </div>
+        <style>
+		#content{margin-left:0px;}.sidebar-left{margin-left:0px;}		</style>
+        <noscript>
+        <style>.sidebar>*{position:relative;top:0;margin:5px !important;display:inline-block;}</style>
+        </noscript>
+        <script>
+		/* Fix height of sidebar for layout */
+		sbDown = 0;
+	    $("#content, #panelContent").children('.sidebar').children(".tile").each(function(){
+			if(typeof $(this).attr("href") != "undefined"){
+				$(this).attr("href",$(this).attr("href").replace("?p=","#!/"));
+			}	
+			var thisDown= parseInt($(this).css("margin-top"))+$(this).height();
+			if(thisDown>sbDown){
+				sbDown=thisDown;
+			}	
+		});
+		$('#contentWrapper, .sidebar').css("min-height",sbDown+20+"px");
+		
+		
+		/* Responsive sidebar position */
+						$.plugin($toColumn,{
+			sidebarAfter:function(){
+				$("#content").children(".sidebar").appendTo("#centerWrapper").css("top",20).css("margin-left",0);
+			}
+		});
+		$.plugin($toSmall,{
+			sidebarBefore:function(){
+				$("#centerWrapper").children(".sidebar").prependTo("#content").css("top",0).css("margin-left",$(".sidebar").css("width"));
+			}
+		}); 
+				$.plugin($toFull,{
+			sidebarBefore:function(){
+				$toSmall.sidebarBefore();
+			}
+		});
+		$.plugin($beforeSubPageShow,{
+			checkSidebar:function(){
+				switch($page.layout){
+					case "column": $toColumn.sidebarAfter();break;
+					case "small": $toSmall.sidebarBefore();break;
+					case "full": $toSmall.sidebarBefore();break;
+				}
+			}
+		});
+				$events.sidebarShow();
+		</script>
+        <p style='margin-top:250px;'>See the source how we've put this sidebar in a panel!</p>
+
+<h2>We can also use accordions</h2>
+<div class="metro-accordion">
+<h3>First title of the accordion</h3>
+<div>To prevent that the window will scroll (if it can scroll) to the clicked header, add the class "no-scroll" to that wrapping div (so it has "metro-accordion no-scroll" as class. 
+<p>To prevent that the opened div is stored in the url (so it isn't opened when the page is refreshed or linked to), add "no-memory" in the same way.
+<p>If you want that only one accordion can be opened at once. Add the class "hide-others", in the same way.
+</div>
+<h3>Second title</h3>
+<div>
+Etiam metus sem, tristique vel dignissim sed, imperdiet et mauris. Duis id urna a magna tempus consequat. Pellentesque imperdiet blandit congue. Quisque tempor felis eget magna accumsan posuere sollicitudin diam scelerisque. Curabitur ut sapien vitae eros imperdiet luctus a sit amet nulla. Praesent fermentum, neque id laoreet interdum, nunc nulla eleifend mi, a semper risus ante quis libero. Integer leo nulla, consequat vitae rhoncus nec, feugiat vel ligula. Integer dolor massa, pretium a dapibus nec, tincidunt eu elit.
+</div>
+<h3>Title three</h3>
+<div>
+Morbi at libero posuere sapien egestas iaculis quis quis tortor. Nunc at libero ac felis consequat eleifend. Vivamus sit amet vulputate turpis. Fusce eget velit ac mauris posuere adipiscing. Curabitur nunc nisi, eleifend sit amet feugiat nec, tincidunt vitae nibh. Etiam in nisi lorem, a accumsan dolor. Curabitur ipsum risus, convallis non varius eleifend, rutrum in neque. Morbi vel lacus porta turpis hendrerit faucibus. Proin vestibulum velit vitae magna mattis a luctus nibh accumsan. Suspendisse in purus nulla, sit amet faucibus neque. Nam tortor lacus, laoreet eu facilisis quis, pharetra sit amet tellus. Curabitur ullamcorper sollicitudin est, id imperdiet quam viverra at. Phasellus dapibus fringilla accumsan. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ultricies tincidunt laoreet.
+</div>
+</div>
+<script>
+createAccordions();
+</script><br><center>This file was downloaded with an evaluation copy of <a href="http://www.sparkleware.com/superbot/watermark/">SuperBot</a>. This message is not added by licensed copies of <a href="http://www.sparkleware.com/superbot/watermark/">SuperBot</a>.</center>

@@ -1,0 +1,69 @@
+<h1>FAQ</h1>
+<div style="text-align: center;"><h3><strong>General </strong></h3></div>
+<ul>
+	<li><b>When is VYC’13?</b><br/>
+		The Convention is from 10th Jan 2013 to 16th Jan 2013. College Competitions are on 12th and 13th Jan 2013 and School Competitions are on 12th Jan 2013.
+	</li>
+</ul>
+
+<div style="text-align: center;"><h3><strong>Events</strong></h3></div>
+<ul>
+	<li><b>Who can participate in VYC’13?</b><br/>
+		The talks and the workshop are open to all.<br/>
+		For other events, all colleges and schools in and around Kanpur and Lucknow are invited to participate in the Convention. Teachers cannot participate in the competitions.
+	</li>
+	<li><b>How can I participate in VYC’13?</b><br/>
+		For Talks, there is no registration.<br/>
+		For School events, registration can be done by the school authorities only.  They  can select students for every competition download the file from <b>Registration</b> tab fill it and send to <a href="mailto:vsamiti@iitk.ac.in">vsamiti@iitk.ac.in</a> with subject <b>VYC School Name</b>. An example is given in the file.
+		For other events, College students can register for the events in which they want to participate from this website. Login from <b>Registration</b> tab and register into various events from <b>Events</b> tab.
+	</li>
+	<li><b>Will logistics be arranged by the institute?</b><br/>
+		No travel arrangements will be made by the institute to reach IITK from various schools and colleges. Also no accommodation will be provided to students of local colleges. Limited accommodation to outstation participants are available, in which case, participants need to send us (vsamiti@iitk.ac.in) their travel and stay plan latest by Jan.5, 2013.
+	</li>
+	<li><b>As an individual, can I participate in the school events?</b><br/>
+		No, only students whose entries are provided by the schools are allowed to participate in the school events. You can request your school authorities to recommend your name.
+	</li>
+	<li><b>Can one school student participate in more than one competition?</b><br/>
+		No, one student can participate in only one of the competitions.
+	</li>
+	<li><b>How many names can a school give for "Career Counselling"?</b><br/>
+		Each school can give names of maximum 15 students for Career Counselling.
+	</li>
+	<li><b>Do we have to register names of all the participants of one team in "Stage Play"?</b><br/>
+		No, only the leader of the team is required to register for the stage play.
+	</li>
+	<li><b>Do we have to register for the "Workshop on Leadership and Soft skills"?</b> <br/>
+		Yes, you have to register for the workshop. No participation certificates will be provided for the workshop. In case of large number of registrations preference will be given to people who registered first.
+	</li>
+	<li><b>Will prizes and certificates be given for each competition?</b><br/>
+		Prizes and certificates will be given to top 3 participants in each competition and participation certificates will be given to all the participants.
+	</li>
+</ul>
+
+<div style="text-align: center;"><h3><strong>Talks </strong></h3></div>
+<ul>
+	<li><b>Who can attend the "Talks"?</b><br/>
+		The talks are open to all, both inside and outside campus community.
+	</li>
+	<li><b>Do we have to register to attend the "Talks"?</b><br/>
+		No, registration is not required for talks.
+	</li>
+</ul>
+
+<div style="text-align: center;"><h3><strong>Others </strong></h3></div>
+<ul>
+	<li><b>Can I bring my Laptop along with me?</b><br/>
+		You can bring your laptop at your own discretion. We are not responsible for security of personal belongings of any participant.
+	</li>
+	<li><b>I still have a question!!!</b><br/>
+		Contact our organizing team on their numbers available on the site.
+	</li>
+</ul>
+<br/>
+<br/>
+
+<style>
+#faq-page li{
+	margin: 5px 0 5px 0;
+}
+</style>

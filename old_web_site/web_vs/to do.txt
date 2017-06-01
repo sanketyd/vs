@@ -1,0 +1,33 @@
+Some pics of <i>Temple tour</i>
+
+----
+
+"List view" and "Grid view" of gallery
+Display only 20 photos in VYC image slider.
+Add a "view more" link in the caption of VYC image.
+For the gallery page, follow the ISEC conference venue style, one horizontal section to an event gallery
+	- http://api.jquery.com/load-event/
+left and right parts of the page are always visible even we scroll down
+Better layout for "Contact us" page
+
+----
+
+Current page color on the navigation links
+Move the Quotations pane above the swamiji's image page
+The quotations and the image slide at same time
+Include "Our samiti" URL link closest to "Home" link
+Add the VYC 2011 image slider in VYC 2012 website also.
+Add two sublinks under "Resources" link - "ebooks" link, "Videos" link
+
+----
+
+Tabs
+	- About Us
+	- Activities
+	- Vedanta
+	- VYC 2012
+	- Gallery
+	- Downloads->e_Books, Pictures, Lectures, Songs
+	- Links
+	- Discussion Room
+	- Contact Us

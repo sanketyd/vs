@@ -1,0 +1,159 @@
+/*
+Design by Bryant Smith
+http://bryantsmith.com/template/
+Released for free
+*/
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+#page
+{
+  background-image:url(background.png);
+}
+
+
+#header
+{
+background-image:url(header.png);
+background-repeat:no-repeat;
+width:798px;
+height:34px;
+margin:0 233px;
+color:#267B9B;
+text-align:center;
+font-style:italic;
+}
+
+#pagetop
+{
+height:143px;
+}
+
+#pagetop h1
+{
+display:block;
+float:left;
+line-height:90px;
+color:#FFFFFF;
+text-align:left;
+font-size:25px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+float:left;
+margin-left:23px;
+}
+
+
+#pagetop ul {
+	padding: 0px;
+	list-style-type: none;
+}
+#pagetop ul li , #pagetop ul li a{
+	display:block;
+	float: right;
+	margin: 0px;
+	text-align:center;
+	color:#FFFFFF;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	margin-top:2px;
+}
+
+#pagetop ul li a:hover{
+	color:#65A9ED;
+}
+
+#pagetop ul li ul{
+	display: none;
+	position: absolute;
+	top: 20px;
+}
+
+#pagetop ul li:hover ul{
+	display: block;
+}
+
+#main 
+{
+float:left;
+width:710px;
+background:url(content_back.png);
+}
+
+
+#main .content
+{
+text-align:justify;
+color:#000000;
+word-spacing:3px;
+margin-left:20px;
+margin-right:20px;
+}
+
+#main .content p
+{
+text-align:justify;
+margin-top:8px;
+margin-bottom:8px;
+}
+
+#main .content h1
+{
+font-size:19px;
+margin-bottom:12px;
+}
+
+.clear
+{
+clear:both;
+}
+
+
+#footer {
+display:block;
+height:50px;
+background: url(footer.png) no-repeat;
+text-align:center;
+font-size:10px;
+line-height:48px;
+}
+
+#footer p{
+padding-right:75px;
+text-align:right;
+}
+
+#footer, #footer a, #footer a:visited{
+text-decoration:none;
+color:#65A9ED;
+}
+
+#footer a:hover{
+text-decoration:none;
+color:#000000;
+}
+

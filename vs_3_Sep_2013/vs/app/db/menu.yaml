@@ -1,0 +1,20 @@
+Home: ?page=home
+
+VYC:
+  VYC 2013: http://www.iitk.ac.in/vs/vyc_2013/
+  VYC 2012: http://www.iitk.ac.in/vs/vyc_2012/
+  VYC 2011: http://www.iitk.ac.in/vs/vyc_2011/
+
+Activities:
+  Year 2013: ?page=activities/2013/list
+  Year 2012: ?page=activities/2012/list
+  Year 2011: ?page=activities/2011/list
+  Year 2010: ?page=activities/2010/list
+
+Resources:
+  E-books: ?page=resources/ebooks
+  Videos:  ?page=resources/videos
+
+Gallery: https://www.facebook.com/vsiitk/photos_albums
+Quotations: ?page=quotations
+Contact Us: ?page=contact_us

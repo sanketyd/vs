@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Description" content="A description of your site for Google here"/>
+    <meta name="keywords" content="Some, keywords, seperated, by, commas, here, max 10"/>
+    <meta name="viewport" content="width=300, target-densitydpi=150, initial-scale=0.999">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Metro UI demo</title> 
+    
+        	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/layout.css" /><link rel="stylesheet" type="text/css" href="css/nav.css" /><link rel="stylesheet" type="text/css" href="css/tiles.css" /><link rel="stylesheet" type="text/css" href="themes/theme_tech/theme.css" /><link rel="stylesheet" type="text/css" href="plugins/accordion/plugin.css" /><link rel="stylesheet" type="text/css" href="plugins/lightbox/plugin.css" /><link rel="stylesheet" type="text/css" href="plugins/panels/plugin.css" /><link rel="stylesheet" type="text/css" href="plugins/plugintemplate/plugin.css" /><link rel="stylesheet" type="text/css" href="plugins/tileflip/plugin.css" /><link rel="stylesheet" type="text/css" href="plugins/tileslide/plugin.css" /><link rel="stylesheet" type="text/css" href="plugins/tileslidefx/plugin.css" /><link rel="stylesheet" type="text/css" href="plugins/tileslideshow/plugin.css" /><link rel="stylesheet" type="text/css" href="plugins/tiletemplate/plugin.css" /><link rel="stylesheet" type="text/css" href="plugins/tileweather/plugin.css" /><style>
+html{background-color:#111;}
+
+		#bgImage { position:fixed; top:0; left:0; z-index:-4; min-width:115%;min-height:100%;
+					-webkit-transition:margin-left 450ms linear;
+			-moz-transition:margin-left 450ms linear;
+			-o-transition:margin-left 450ms;
+			-ms-transition:margin-left 450ms;
+			transition:margin-left 450ms;
+					}
+			.tile{
+	-webkit-transition-property: box-shadow, margin-left,  margin-top;
+	-webkit-transition-duration: 0.25s, 0.5s, 0.5s;
+	-moztransition-property: box-shadow, margin-left,  margin-top;
+	-moz-transition-duration: 0.25s, 0.5s, 0.5s;
+	-o-transition-property: box-shadow, margin-left,  margin-top;
+	-o-transition-duration: 0.25s, 0.5s, 0.5s;
+	-ms-transition-property: box-shadow, margin-left,  margin-top;
+	-ms-transition-duration: 0.25s, 0.5s, 0.5s;
+	transition-property: box-shadow, margin-left,  margin-top;
+	transition-duration: 0.25s, 0.5s, 0.5s;
+	}
+</style> 
+    <!--[if lt IE 9]>
+    <script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/html5.js">
+	<![endif]-->
+	<!--[if gte IE 9]>
+    <script src="http://code.jquery.com/jquery-2.0.0b2.js"></script>
+    <script src="js/html5.js">
+	<![endif]-->
+    <!--[if !IE]>
+    <script src="http://code.jquery.com/jquery-2.0.0b2.js"></script>
+	<![endif]-->
+
+    <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js/jquery191.js"><\/script>')</script> 
+    <script type="text/javascript" language="javascript" src="js/plugins.js"></script>
+	<script>
+scale = 145;
+spacing = 10;
+theme = 'theme_tech';
+$group.titles = ["Our Services","Supported Operating Systems","Contact"];
+$group.spacingFull = [3,4,3];
+$group.inactive.opacity = "1";
+$group.inactive.clickable = "1";
+$group.showEffect = 0;
+$group.direction = "horizontal";
+
+mouseScroll = "1";
+
+siteTitle = 'Metro UI demo';
+siteTitleHome = 'Home';
+showSpeed = 400;
+hideSpeed = 300;
+scrollSpeed = 550;
+
+device = "desktop";
+	scrollHeader = "1";
+	disableGroupScrollingWhenVerticalScroll = "";
+
+/*For background image*/
+bgMaxScroll= "130";
+bgScrollSpeed = "450";
+
+/*For responsive */
+autoRearrangeTiles = "1";
+autoResizeTiles = "1";
+rearrangeTreshhold = 3;
+hidePanelOnClick = '1';pageTitles=new Array();pageTitles['welcome.php'] = 'Welcome';pageTitles['typography.php'] = 'Typography';pageTitles['accordions.php'] = 'Accordions';pageTitles['sidebars.php'] = 'Sidebars';</script><script type="text/javascript" src="plugins/accordion/plugin.js" /></script><script type="text/javascript" src="plugins/lightbox/plugin.js" /></script><script type="text/javascript" src="plugins/panels/desktop.js" /></script><script type="text/javascript" src="plugins/plugintemplate/plugin.js" /></script><script type="text/javascript" src="plugins/tileflip/plugin.js" /></script><script type="text/javascript" src="plugins/tileslide/plugin.js" /></script><script type="text/javascript" src="plugins/tileslidefx/plugin.js" /></script><script type="text/javascript" src="plugins/tileslideshow/plugin.js" /></script><script type="text/javascript" src="plugins/tiletemplate/plugin.js" /></script><script type="text/javascript" src="plugins/tileweather/plugin.js" /></script><script type="text/javascript" src="js/functions.js" /></script><script type="text/javascript" src="js/main.js" /></script><script type="text/javascript" src="plugins/tileweather/jquery.simpleweather-2.1.2.min.js" /></script>    <noscript><style>#tileContainer{display:block}</style></noscript>
+</head>
+<body class="full desktop">
+<img src="themes/theme_tech/img/background.jpg" id='bgImage'/><header>
+	<div id="headerWrapper">
+		<div id="headerCenter">
+			<div id="headerTitles">
+				<h1><a href="index.html#!">Metro UI demo</a></h1>
+		   		<h2>Demo of the Tech-theme</h2>
+		    </div>
+		    <nav>
+            	<a rel="group0">
+	<img src="img/icons/home.png"/>
+	Our services
+</a>
+<a rel="group1">
+	<img src="img/icons/chip.png"/>
+	Supported OS
+ </a>
+<a rel="group2">
+	<img src="img/icons/mail2.png"/>
+	Contact
+</a>			</nav>
+		</div>
+    </div>
+    </header>
+<div id="wrapper">
+	<div id="centerWrapper">
+  		    	<div id="tileContainer" 
+			>
+                    		<img id='arrowLeft' class="navArrows" src="themes/theme_tech/img/primary/arrowleft.png" onClick="javascript:$group.goLeft();"/>
+            	<img id='arrowRight' class="navArrows" src="themes/theme_tech/img/primary/arrowright.png" onClick="javascript:$group.goRight();"/>
+       		     <a href="index.html#&Our-Services" id="groupTitle0" class="groupTitle" style="margin-left:0px; margin-top:0px" onclick="javascript:$group.goTo(0);"><h3>Our Services</h3></a>
+        <a href="index.html#&Supported-Operating-Systems" id="groupTitle1" class="groupTitle" style="margin-left:465px; margin-top:0px" onclick="javascript:$group.goTo(1);"><h3>Supported Operating Systems</h3></a>
+        <a href="index.html#&Contact" id="groupTitle2" class="groupTitle" style="margin-left:1085px; margin-top:0px" onclick="javascript:$group.goTo(2);"><h3>Contact</h3></a>
+      	<a  href="http://metro-webdesign.info/demo/tech/?p=url=pcrepairs.php" class="tile tileSlideFx group0 " style="
+    margin-top:45px; margin-left:0px;
+	width:300px; height:145px;
+	background:#10668F;"  data-pos='45-0-300' > 
+      
+    <div class='slideText' style=''>
+   	 We repair you pc in no-time!    </div>
+    <div class='imgWrapper'>
+    	<img src="img/pcrepairs.png" /> 
+    </div>
+	<div class='tileLabelWrapper bottom'><div class='tileLabel bottom' style='border-bottom-color:#BD6500;'>PC repairs</div></div> 
+   
+    </a>
+      	<a  href="http://metro-webdesign.info/demo/tech/?p=url=coding.php" class="tile tileSlideFx group0 " style="
+    margin-top:200px; margin-left:0px;
+	width:300px; height:145px;
+	background:#10668F;"  data-pos='200-0-300' > 
+      
+    <div class='slideText' style=''>
+   	 Programming solutions!    </div>
+    <div class='imgWrapper'>
+    	<img src="img/code.png" /> 
+    </div>
+	<div class='tileLabelWrapper bottom'><div class='tileLabel bottom' style='border-bottom-color:#BD6500;'>Coding</div></div> 
+   
+    </a>
+      	<a  href="http://metro-webdesign.info/demo/tech/?p=welcome" id="tileSlideshow0-0-2" class="tile tileSlideshow group0 noClick" style="
+    margin-top:355px; margin-left:0px;
+	width:145px; height:145px;
+	background:#6950ab;"  data-pos='355-0-145'  data-n=0> 
+    
+    <div class='imgWrapperBack' style="width: 147px; height:147px"><img src='' /></div>
+	<div class='imgWrapper' style="width: 147px; height:147px"><img src="img/laptop.jpg" /></div>
+    <script>slideshowTiles["tileSlideshow0-0-2"] = [["img\/laptop.jpg","img\/tablet.jpg","img\/smartphone.jpg"],"slide-right",5000]</script>
+    
+     
+    </a>
+      	<a  class="tile tileFlip support3D group1 noClick" style="
+    margin-top:45px; margin-left:465px;
+	width:145px; height:145px;"  data-pos='45-465-145' > 
+    
+    <div class='flipContainer'>
+		<div class='flipFront' style="background:#E87C00;">
+        <div class='flipImgWrapper'>
+        <div class='flipImgCenterer'>
+        <img src="img/windows.png" style="
+        width:147px;
+               "/>
+       </div>
+        </div>
+        </div>
+		<div class='flipBack' style="background:#E87C00;"><h3 style='color:#FFF;'>Windows</h3></div>
+        	</div>
+    </a>
+      	<a  class="tile tileFlip support3D group1 noClick" style="
+    margin-top:45px; margin-left:620px;
+	width:145px; height:145px;"  data-pos='45-620-145' > 
+    
+    <div class='flipContainer'>
+		<div class='flipFront' style="background:#E87C00;">
+        <div class='flipImgWrapper'>
+        <div class='flipImgCenterer'>
+        <img src="img/apple.png" style="
+        width:147px;
+               "/>
+       </div>
+        </div>
+        </div>
+		<div class='flipBack' style="background:#E87C00;"><h3 style='color:#FFF;'>Mac OS X</h3></div>
+        	</div>
+    </a>
+      	<a  class="tile tileFlip support3D group1 noClick" style="
+    margin-top:45px; margin-left:775px;
+	width:145px; height:145px;"  data-pos='45-775-145' > 
+    
+    <div class='flipContainer'>
+		<div class='flipFront' style="background:#E87C00;">
+        <div class='flipImgWrapper'>
+        <div class='flipImgCenterer'>
+        <img src="img/ubuntu.png" style="
+        width:147px;
+               "/>
+       </div>
+        </div>
+        </div>
+		<div class='flipBack' style="background:#E87C00;"><h3 style='color:#FFF;'>Ubuntu</h3></div>
+        	</div>
+    </a>
+      	<a  class="tile tileFlip support3D group1 noClick" style="
+    margin-top:355px; margin-left:465px;
+	width:145px; height:145px;"  data-pos='355-465-145' > 
+    
+    <div class='flipContainer'>
+		<div class='flipFront' style="background:#E87C00;">
+        <div class='flipImgWrapper'>
+        <div class='flipImgCenterer'>
+        <img src="img/apple.png" style="
+        width:147px;
+               "/>
+       </div>
+        </div>
+        </div>
+		<div class='flipBack' style="background:#E87C00;"><h3 style='color:#FFF;'>iOS</h3></div>
+        	</div>
+    </a>
+      	<a  class="tile tileFlip support3D group1 noClick" style="
+    margin-top:355px; margin-left:620px;
+	width:145px; height:145px;"  data-pos='355-620-145' > 
+    
+    <div class='flipContainer'>
+		<div class='flipFront' style="background:#E87C00;">
+        <div class='flipImgWrapper'>
+        <div class='flipImgCenterer'>
+        <img src="img/android.png" style="
+        width:147px;
+               "/>
+       </div>
+        </div>
+        </div>
+		<div class='flipBack' style="background:#E87C00;"><h3 style='color:#FFF;'>Android</h3></div>
+        	</div>
+    </a>
+      	<a  class="tile tileFlip support3D group1 noClick" style="
+    margin-top:355px; margin-left:775px;
+	width:145px; height:145px;"  data-pos='355-775-145' > 
+    
+    <div class='flipContainer'>
+		<div class='flipFront' style="background:#E87C00;">
+        <div class='flipImgWrapper'>
+        <div class='flipImgCenterer'>
+        <img src="img/wp.png" style="
+        width:147px;
+               "/>
+       </div>
+        </div>
+        </div>
+		<div class='flipBack' style="background:#E87C00;"><h3 style='color:#FFF;'>Windows Phone</h3></div>
+        	</div>
+    </a>
+      	<a  href="http://metro-webdesign.info/demo/tech/?p=url=about.php" class="tile group2 " style="
+    margin-top:45px; margin-left:1085px;
+	width:300px; height:145px;
+	background:#10668F;"  data-pos='45-1085-300' > 
+    	<div class='tileTitle' style='margin-left:10px;'><h5>Fictive Road 01, 0123, Neverland</h5></div>
+	<div class='tileDesc' style='margin-left:12px;'>Phone: 094512345 <br/> Mon-Fri: 9.00-17.00</div>
+     
+    </a>
+      	<a  href="http://metro-webdesign.info/demo/tech/?p=url=contact.php" class="tile tileSlide up group2 " style="
+    margin-top:355px; margin-left:1085px;
+	width:145px; height:145px;
+	background:#E87C00; padding:0;"  data-pos='355-1085-145'  data-doslide="1"> 
+    
+    
+    <div class='slideText' style='
+            height:58px; width:100%;top:145px;'><h3 style='background-color:#333;'>Contact</h3>    </div>
+    <div class="imageWrapper">
+    	<div class="imageCenterer" style="width:145px; height:145px;line-height:143px;">
+			<img src="img/icons/mail.png" style="width:130.5px;" /> 
+        </div>
+		</div> 
+   
+    </a>
+      	<a  href="img/adress.jpg" class="tile tileImg group2  lightbox" style="
+    margin-top:200px; margin-left:1085px;
+	width:300px; height:145px;
+	background:#0F6D32;"   data-pos='200-1085-300' > 
+    <img src="img/adress.jpg" width="300" style='margin-left:-150px; margin-top: -72.5px; max-height:145px;'/>
+    <div class='tileLabelWrapper bottom'><div class='tileLabel bottom' style='border-bottom-color:#E87C00;'>Visit us</div>    </div>
+    </a>
+      	<a  id="tileWeather2_1-2" class="tile tileWeather group2 " style="
+    margin-top:355px; margin-left:1240px;
+	width:300px; height:145px;
+	background:#10668F;"  data-pos='355-1240-300' > 
+    
+    <div id="weather"></div>
+    <script>tileWeatherInit("2_1-2","","new york, US","","c");</script>
+    
+     
+    </a>
+            </div> 
+                <div id="subNavWrapper"></div>
+    	<div id="contentWrapper" >   		    
+	   		            <div id="content">	        	
+					        </div>
+    	    		</div>
+            </div>
+	<footer>
+		© Thomas Verelst    </footer>
+    </div> 
+<div id="catchScroll"></div>
+<div id='panel' style='max-width:400px;right:-400px;background-color:#222;'>
+	<img id='panelArrow' src="themes/theme_tech/img/panels/arrow.png" onClick='javascript:hidePanel();'>
+	<img id='panelLoader' src="themes/theme_tech/img/panels/loader.gif"/>
+	<div id='panelContent'>
+	</div>
+	</div></body>
+</html><br><center>This file was downloaded with an evaluation copy of <a href="http://www.sparkleware.com/superbot/watermark/">SuperBot</a>. This message is not added by licensed copies of <a href="http://www.sparkleware.com/superbot/watermark/">SuperBot</a>.</center>

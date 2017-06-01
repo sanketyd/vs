@@ -1,0 +1,9 @@
+<a name="registration"></a>
+<h2 style="color:brown">The participants are requested to register for competitions: <a href='https://docs.google.com/spreadsheet/embeddedform?formkey=dE0xSXNQaWlRMVVFdUlwY1ViYjhHU0E6MQ'>Registration link</a></h2>
+
+<br><hr><br>
+
+----
+
+<br>
+	<b style="color:DeepPink">Registration link</b>: <a href='#registration'>Go to top</a>

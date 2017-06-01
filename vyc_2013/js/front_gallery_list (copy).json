@@ -1,0 +1,64 @@
+{
+	"base_url": "images/gallery",
+	"pictures": [
+		{
+			"url": "logo.jpg",
+		      "info": "<div style='text-align: center;'>Welcome<br/> to</div> Vivekananda Youth Leadership Convention<br/><div style='font-size: 14pt; text-align: center;'>10 - 16<sup>th</sup> January - 2013<br/>IIT Kanpur</div>",
+		      "info_bg_color": "#a51c30"
+		},
+		{
+			   "url": "chs_general.jpg",
+		       "info": "We often conduct general health camp with help from <b>Ramkrishna Mission</b> and their <b>Doctors</b>.",
+		       "info_bg_color": "#1c54a5",
+		       "link": "http://iitk.ac.in/vs/healthcamp2012.php"
+		},
+		{
+			   "url": "MHC_2012.jpg",
+		       "info": "<b>Medical Health Camp - 2012</b><br/>Service to humanity is service to God.",
+		       "info_bg_color": "#a51c30",
+		       "link": "http://iitk.ac.in/vs/healthcamp2012.php"
+		},
+		{
+			   "url": "chs_eye.jpg",
+		       "info": "The eye camp, held on 9th September where <b>eye</b> of many people in villages near <b>IIT Kanpur</b> were checked.",
+		       "info_bg_color": "#a51c30",
+		       "link": "http://iitk.ac.in/vs/healthcamp2012.php"
+		},
+		{ 
+			   "url": "pd.jpg",
+		       "info": "These are images from the <b>Personality Development Workshop</b> that was held last year.",
+		       "info_bg_color": "#647f01",
+		       "link": "http://iitk.ac.in/vs/healthcamp2012.php"
+		},
+		{ 
+			   "url": "editedimage1.JPG",
+		       "info": "Health camps for underprivileged children.",
+		       "info_bg_color": "#C64600",
+		       "link": "http://iitk.ac.in/vs/healthcamp2012.php"
+		},
+		{ 
+			   "url": "editedimage2.JPG",
+		       "info": "Eye camp organized in villages around IIT Kanpur, more than 1000 people have been treated so far.",
+		       "info_bg_color": "#647f01",
+		       "link": "http://iitk.ac.in/vs/healthcamp2012.php"
+		},
+		{ 
+			   "url": "editedimage3.JPG",
+		       "info": "Glimps of VYC - 2011",
+		       "info_bg_color": "#C64600",
+		       "link": "http://iitk.ac.in/vs/healthcamp2012.php"
+		},		
+		{ 
+			   "url": "editedimage4.JPG",
+		       "info": "Health camp organized in villages around IIT Kanpur, more than 2000 people have been treated so far.",
+		       "info_bg_color": "#1c54a5",
+		       "link": "http://iitk.ac.in/vs/healthcamp2012.php"
+		},
+		{ 
+			   "url": "editedimage5.JPG",
+		       "info": "Personality Development Workshop",
+		       "info_bg_color": "#647f01",
+		       "link": "http://iitk.ac.in/vs/healthcamp2012.php"
+		}    
+ ]
+}

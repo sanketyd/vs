@@ -1,0 +1,91 @@
+<h1>Thanks to</h1>
+        <div class='sidebar sidebar-left' style='width:315px'>
+          	<a  target='_blank' href="http://jquery.com/" class="tile group0 " style="
+    margin-top:0px; margin-left:0px;
+	width:300px; height:44.25px;
+	background:#777;"  > 
+    	<div class='tileTitle' style='margin-left:10px;'>jQuery</div>
+	<div class='tileDesc' style='margin-left:12px;'></div>
+     
+    </a>
+      	<a  target='_blank' href="http://ace.ajax.org/" class="tile group0 " style="
+    margin-top:54.25px; margin-left:0px;
+	width:300px; height:44.25px;
+	background:#777;"  > 
+    	<div class='tileTitle' style='margin-left:10px;'>ACE editor</div>
+	<div class='tileDesc' style='margin-left:12px;'></div>
+     
+    </a>
+      	<a  target='_blank' href="http://crisp.tweakblogs.net/blog/cat/716" class="tile group0 " style="
+    margin-top:108.5px; margin-left:0px;
+	width:300px; height:44.25px;
+	background:#777;"  > 
+    	<div class='tileTitle' style='margin-left:10px;'>JSMin+</div>
+	<div class='tileDesc' style='margin-left:12px;'></div>
+     
+    </a>
+      	<a  target='_blank' href="http://www.brettjankord.com/2012/01/16/categorizr-a-modern-device-detection-script/" class="tile group0 " style="
+    margin-top:162.75px; margin-left:0px;
+	width:300px; height:44.25px;
+	background:#777;"  > 
+    	<div class='tileTitle' style='margin-left:10px;'>Categorizr</div>
+	<div class='tileDesc' style='margin-left:12px;'></div>
+     
+    </a>
+      	<a  target='_blank' href="http://www.sjoen.be/" class="tile group0 " style="
+    margin-top:217px; margin-left:0px;
+	width:300px; height:44.25px;
+	background:#777;"  > 
+    	<div class='tileTitle' style='margin-left:10px;'>Sjoen.be</div>
+	<div class='tileDesc' style='margin-left:12px;'></div>
+     
+    </a>
+            </div>
+        <style>
+		#content{margin-left:0px;}.sidebar-left{margin-left:0px;}		</style>
+        <noscript>
+        <style>.sidebar>*{position:relative;top:0;margin:5px !important;display:inline-block;}</style>
+        </noscript>
+        <script>
+		/* Fix height of sidebar for layout */
+		sbDown = 0;
+	    $("#content, #panelContent").children('.sidebar').children(".tile").each(function(){
+			if(typeof $(this).attr("href") != "undefined"){
+				$(this).attr("href",$(this).attr("href").replace("?p=","#!/"));
+			}	
+			var thisDown= parseInt($(this).css("margin-top"))+$(this).height();
+			if(thisDown>sbDown){
+				sbDown=thisDown;
+			}	
+		});
+		$('#contentWrapper, .sidebar').css("min-height",sbDown+20+"px");
+		
+		
+		/* Responsive sidebar position */
+						$.plugin($toColumn,{
+			sidebarAfter:function(){
+				$("#content").children(".sidebar").appendTo("#centerWrapper").css("top",20).css("margin-left",0);
+			}
+		});
+		$.plugin($toSmall,{
+			sidebarBefore:function(){
+				$("#centerWrapper").children(".sidebar").prependTo("#content").css("top",0).css("margin-left",$(".sidebar").css("width"));
+			}
+		}); 
+				$.plugin($toFull,{
+			sidebarBefore:function(){
+				$toSmall.sidebarBefore();
+			}
+		});
+		$.plugin($beforeSubPageShow,{
+			checkSidebar:function(){
+				switch($page.layout){
+					case "column": $toColumn.sidebarAfter();break;
+					case "small": $toSmall.sidebarBefore();break;
+					case "full": $toSmall.sidebarBefore();break;
+				}
+			}
+		});
+				$events.sidebarShow();
+		</script>
+        <br><center>This file was downloaded with an evaluation copy of <a href="http://www.sparkleware.com/superbot/watermark/">SuperBot</a>. This message is not added by licensed copies of <a href="http://www.sparkleware.com/superbot/watermark/">SuperBot</a>.</center>

@@ -1,0 +1,47 @@
+#main_table {
+	border-collapse: collapse;
+	background: url("images/main-content-bg.png") repeat-x scroll 0 0 white;
+	border: 1px solid #E0E0E0;
+	box-shadow: 0 0 5px #DDD;
+	margin: 0 10px 0px 10px;
+	padding: 44px 34px;
+	width: 98.5%;
+}
+
+#left_pane {
+	background-color: transparent !important;
+}
+
+#left_pane::before {
+	display: block;
+	border: 0px solid white !important;
+	height: 0px !important;
+	content: '';
+}
+
+#left_pane::after {
+	display: block;
+	border: 0px solid white !important;
+	height: 0px !important;
+	content: '';
+}
+
+#central_pane {
+	min-height: 570px;
+	background: none !important;
+	border: 0px solid white !important;
+	box-shadow: 0 0 0 white !important;
+	margin: 0 !important;
+	text-align: center;
+}
+
+.error {
+	color: #205893;
+	font-size: 3em;
+}
+
+.icon404 {
+	width: 128px;
+	height: 128px;
+	background: url("images/errors/icon-404.png") no-repeat scroll 0 0 white;
+}
