@@ -12,11 +12,12 @@
 
 <br><br>
 
+<!--
 <b>Chicago Speech (11th September 1893)</b>
 <br>
 <iframe width="420" height="315" src="http://www.youtube.com/embed/N8MRaedvfUU" frameborder="0" allowfullscreen></iframe>
 
-<br><br>
+<br><br>-->
 <hr><br>
 
 <div style='margin-bottom:5px; font-size:1.5em; color:brown;'>Sri Ramakrishna Paramahamsa</div>
@@ -43,20 +44,49 @@
 <iframe width="420" height="315" src="http://www.youtube.com/embed/h8YteYRhGeM" frameborder="0" allowfullscreen></iframe>
 
 <br><br>
-
+<!--
 <b>Jaya Jaya Janani Jaya Sri Sarada Mani</b>
 <br>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/d8uSbjVKH94" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="http://www.youtube.com/embed/d8uSbjVKH94" frameborder="0" allowfullscreen></iframe>
 
-<br><br>
-<hr><br>
+<br><br>-->
 
+<!--<hr><br>
 <div style='margin-bottom:5px; font-size:1.5em; color:brown;'>Durga puja</div>
 <div name='spacing' style='padding-top: 5px;'></div>
 
 <b>Belur Math Durga Puja Sandhya Aarti</b>
 <br>
 <iframe width="420" height="315" src="http://www.youtube.com/embed/RkSkszLSg4c" frameborder="0" allowfullscreen></iframe>
+
+<br><br>-->
+<hr><br>
+
+<div style='margin-bottom:5px; font-size:1.5em; color:brown;'>OTHER VIDEOS</div>
+<div name='spacing' style='padding-top: 5px;'></div>
+
+<b>Swami Sarvapriyananda-"BHAGVAD GITA FOR STUDENTS"</b>
+<br>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/_EqwlOeTj7Y" frameborder="0" allowfullscreen></iframe>
+
+<br><br>
+
+<b>Bhakti Sharma at IIT Kanpur - "Lessons learnt from the seven seas"</b>
+<br>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/iK_bk-EJk1M" frameborder="0" allowfullscreen></iframe>
+
+<br><br>
+
+<b>Arunima Sinha - "Journey from the Railway tracks to the Mt. Everest"
+</b>
+<br>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/sWHDM7qsOBs" frameborder="0" allowfullscreen></iframe>
+
+<br><br>
+
+<b>Sandeep Maheshwari-Three Days that changed my life</b>
+<br>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/qy4Xr7yFI_k" frameborder="0" allowfullscreen></iframe>
 
 <br><br>
 <hr><br>
