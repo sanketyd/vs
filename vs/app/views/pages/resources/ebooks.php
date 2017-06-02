@@ -8,11 +8,25 @@
 
 <ul>
 	<li><a href="http://www.advaitaashrama.org/cw/content.php" target="_blank">Complete Works of Swami Vivekananda</a></li>
-	<li><a href="http://www.ramakrishnavivekananda.info/gospel/introduction/introduction_frame.htm" target="_blank">The Gospel of Sri Ramakrishna</a></li>
-	<li><a href="https://advaitaashrama.org/downloads/A%20Short%20Life%20of%20Swami%20Vivekananda.pdf" target="_blank">A Short Life of Swami Vivekananda</a></li>
-	<li><a href="https://advaitaashrama.org/downloads/A%20Short%20Life%20of%20Sri%20Ramakrishna.pdf" target="_blank">A Short Life of Sri Ramakrishna</a></li>
-	<li><a href="https://advaitaashrama.org/downloads/A%20Short%20Life%20of%20Holy%20Mother.pdf" target="_blank">A Short Life of Holy Mother</a></li>
-	<li><a href="https://advaitaashrama.org/downloads/Inspiring%20Lives.pdf" target="_blank">Inspiring Lives</a></li>
+
+	<!--<li><a href="http://www.ramakrishnavivekananda.info/gospel/introduction/introduction_frame.htm" target="_blank">The Gospel of Sri Ramakrishna</a></li>-->
+	<li><a href="http://www.ramakrishnavivekananda.info/gospel/introduction/introduction.htm" target="_blank">The Gospel of Sri Ramakrishna</a></li>
+	
+
+	<!--<li><a href="https://advaitaashrama.org/downloads/A%20Short%20Life%20of%20Swami%20Vivekananda.pdf" target="_blank">A Short Life of Swami Vivekananda</a></li>-->
+	<li><a href="http://advaitaashrama.org/Content/Download/FreeBooks/A%20Short%20Life%20of%20Swami%20Vivekananda.pdf" target="_blank">A Short Life of Swami Vivekananda</a></li>
+
+	<!--<li><a href="https://advaitaashrama.org/downloads/A%20Short%20Life%20of%20Sri%20Ramakrishna.pdf" target="_blank">A Short Life of Sri Ramakrishna</a></li>-->
+	<li><a href="http://advaitaashrama.org/Content/Download/FreeBooks/A%20Short%20Life%20of%20Sri%20Ramakrishna.pdf" target="_blank">A Short Life of Sri Ramakrishna</a></li>
+	
+
+	<!--<li><a href="https://advaitaashrama.org/downloads/A%20Short%20Life%20of%20Holy%20Mother.pdf" target="_blank">A Short Life of Holy Mother</a></li>-->
+	<li><a href="http://advaitaashrama.org/Content/Download/FreeBooks/A%20Short%20Life%20of%20Holy%20Mother.pdf" target="_blank">A Short Life of Holy Mother</a></li>
+	
+
+	<!--<li><a href="https://advaitaashrama.org/downloads/Inspiring%20Lives.pdf" target="_blank">Inspiring Lives</a></li>-->
+	<li><a href="http://advaitaashrama.org/Content/Download/FreeBooks/Inspiring%20Lives.pdf" target="_blank">Inspiring Lives</a></li>
+	
 	<li><a href="vs/res/downloads/stotram.pdf" target="_blank">Lyrics of stotram/speech/arti</a> (reference to video resources).</li>
 </ul>
 
