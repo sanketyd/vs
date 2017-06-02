@@ -4,6 +4,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<style>
+			#header_table {
+				background-color: white;
+			}
+			#emp {
+				height: 5px;
+			}
+		</style>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<script src="<?php load_res('scripts/lib/jquery/jquery.js');?>"></script>
 
@@ -33,7 +41,8 @@
 			<tr>
 				<td>
 					<h1 style="margin-top: 0;">
-						<a href="<?php echo APP_URL;?>" style="color: #2f3a5b; text-decoration: none; font-size: 1.4em;">Vivekananda Samiti </a>  <a href="http://www.iitk.ac.in" style="color: #205893; font-size: 10pt; font-size: .8em; text-decoration: none;"> IIT Kanpur</a> <br/>
+						<!--#2f3a5b-->
+						<a href="<?php echo APP_URL;?>" style="color: #2f3a5b; text-decoration: none; font-size: 1.2em;">VIVEKANANDA SAMITI </a>  <a href="http://www.iitk.ac.in" style="color: #205893; font-size: 10pt; font-size: .8em; text-decoration: none;"> IIT Kanpur</a> <br/>
 					</h1>
 				</td>
 				<td style="text-align: right;">
@@ -62,7 +71,9 @@
 				</td>
 			</tr>
 		</table>
+		<div id="emp">
 
+		</div>
 		<table id="main_table">
 			<col style="width: 250px"/>
 			<col style="min-width: 500px"/>
