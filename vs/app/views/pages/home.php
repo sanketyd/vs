@@ -5,6 +5,7 @@
         <!--<h3><span style="font-size: 1.2em;"><a href="vylc_2014">"Vivekananda Youth Leadership Convention - 2014"</a></span></h3> -->
 
 	<!--<p style="margin-top: 50px; border-top: 1px solid black;">-->
+                <h3>ABOUT US</h3>
         <p>
 		<span style="font-size: 1.2em;"><b>Vivekananda Samiti</b></span> is one of the oldest clubs under the Students' Gymkhana functioning for over 48 years, thus spreading the message of Swami Vivekananda among the campus residents. In present year our focus is to apply the concepts of Swami Vivekananda in our daily life through some practical activity for a overall IIT-K community as well as to take active part in nation building.
         </p>
@@ -37,7 +38,9 @@
 		margin-left: 0;
 	}
   #central_pane > img{
-    width: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
   }
 </style>
 <?php endblock() ?>

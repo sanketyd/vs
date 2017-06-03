@@ -133,7 +133,7 @@
 			<a href="?page=home">Home</a>
 			<a href="?page=activities/2013/list">Activities</a>
 			<a href="?page=quotations">Quotations</a>
-			<a target="_blank" href="https://www.facebook.com/vsiitk/photos_albums">Gallery</a>
+			<a target="_blank" href="https://www.facebook.com/pg/vsiitk/photos/?tab=albums">Gallery</a>
 			<a href="?page=contact_us">Contact us</a>
 			<div id="join-us">
 				<a href="#">Join us:</a>
