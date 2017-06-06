@@ -39,6 +39,9 @@
 
 	#central_pane > p{
 		margin-left: 0;
+    		font-weight: lighter;
+    		font-size: 1em;
+    		font-family: 'HelveticaNeueW01-Thin',sans-serif
 	}
   #central_pane > img{
     width: 50%;
