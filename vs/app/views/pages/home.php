@@ -32,6 +32,9 @@
   }
 	#central_pane > h3{
 		text-align: center;
+		font-weight: normal;
+    		font-size: 1.875em;
+    		font-family: 'HelveticaNeueW01-45Ligh',sans-serif
 	}
 
 	#central_pane > p{
