@@ -13,7 +13,7 @@
 		</td>
 		<td style="width: 50px;">
 			<a href="?page=activities/2017/list">2017</a><br/>
-			<a href="?page=activities/2016/list">2016</a><br/>
+			<a href="?page=activities/2016/2016act">2016</a><br/>
 			<a href="?page=activities/2015/list">2015</a><br/>
 			<a href="?page=activities/2013/list">2013</a><br/>
 			<a href="?page=activities/2012/list">2012</a><br/>
