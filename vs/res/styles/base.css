@@ -300,6 +300,7 @@ ul,li {
 }
 
 #left_pane blockquote {
+	font-family: 'monotype corsiva',cursive;
 	background: url("images/block.png") top left no-repeat #FFFFFF;
 	margin: 30px 5px;
 	padding: 22px 10px 10px 16px;
