@@ -3,6 +3,7 @@
 <body>
 <? startblock('activities'); ?>
 <div id="ovrflw">
+<div><img src="<?php load_res('/images/activities.png')?>"></div>
 <h3>Workshop on Effective Life Management: 29<sup>th</sup>-31<sup>st</sup> July 2016</h3>
 <div style="width: 100%; display: flex;">
 <div style="margin-right: 5%;">
