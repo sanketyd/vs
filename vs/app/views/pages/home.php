@@ -14,9 +14,9 @@
         </p>
         <p>Uniqueness of some events conducted this year were to motivate more students & to enhance their soft skills, leadership ability & overall personality for personality development as well as to help them in campus placements.</p>
                 <h3>MISSION</h3>
-                <lu style="font-size: 1.1em;"><li>To take a pivotal role in shaping the face of humanity.</li>
+                <ul class="list"><li>To take a pivotal role in shaping the face of humanity.</li>
                     <li>To spiritualize our every work applying the novel philosophy of Swami Vivekananda for the overall development of our nation and the whole world</li>
-                </lu>
+                </ul>
       <h3>VISION</h3>
       <img src="<?php load_res('images/v2.png'); ?>"
 <?php endblock() ?>
