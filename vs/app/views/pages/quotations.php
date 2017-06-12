@@ -1,7 +1,7 @@
 <?php include (APP_ROOT.'/app/views/base.php'); ?>
 
 <?php startblock('central_pane') ?>
-<ul>
+<ul class="list">
 	<li >See for the highest, aim at that highest, and you shall reach the highest.</li><br/>
 	<li>	"Comfort" is no test of truth; on the contrary, truth is often far from being "comfortable".</li><br/>
 	<li>	"The earth is enjoyed by heroes"-this is the unfailing truth. Be a hero. Always say, "I have no fear".</li><br/>
